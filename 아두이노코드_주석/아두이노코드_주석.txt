@@ -1,0 +1,72 @@
+//LED
+const int ledPin = 10;  // LED 가 연결된 핀 번호
+char inputVal = 0;  // 시리얼 입력 값을 저장할 변수
+
+//온도
+float temp;  // 온도 값을 저장할 변수
+
+//조도
+const int lightPin = A1;  // 조도 센서가 연결된 핀 번호
+
+//초음파
+const int trig_pin = 11;  // 초음파 센서의 Trig 핀 번호
+const int echo_pin = 12;  // 초음파 센서의 Echo 핀 번호
+
+void setup() {
+  Serial.begin(9600);  // 시리얼 통신 시작 (9600 baud rate)
+  pinMode(ledPin,OUTPUT);  // LED 핀을 출력 모드로 설정
+
+  //초음파
+  pinMode(trig_pin , OUTPUT);  // Trig 핀을 출력 모드로 설정
+  pinMode(echo_pin,INPUT);  // Echo 핀을 입력 모드로 설정
+}
+
+void loop() {
+  if(Serial.available()){  // 시리얼 입력이 있는지 확인
+   	inputVal = Serial.read();  // 시리얼 입력 값을 읽어온다
+    if(inputVal == '1'){  // 입력 값이 '1' 이면
+      digitalWrite(ledPin,HIGH);  // LED 를 켠다
+      Serial.print("LED:");  // 시리얼 모니터에 "LED:" 출력
+      Serial.print("ON");  // 시리얼 모니터에 "ON" 출력
+      Serial.print("_");  // 시리얼 모니터에 "_" 출력
+     }
+    else if(inputVal == '0'){  // 입력 값이 '0' 이면
+      digitalWrite(ledPin,LOW);  // LED 를 끈다
+      Serial.print("LED:");  // 시리얼 모니터에 "LED:" 출력
+      Serial.print("OFF");  // 시리얼 모니터에 "OFF" 출력
+      Serial.print("_");  // 시리얼 모니터에 "_" 출력
+      
+    }
+  }
+
+  //온도
+  int val = analogRead(A0);  // A0 핀에서 아날로그 값을 읽어온다
+  temp = val*0.48828125;  // 화씨 -> 섭씨 변경 
+  Serial.print("TMP:");  // 시리얼 모니터에 "TMP:" 출력
+  Serial.print(temp);  // 시리얼 모니터에 온도 출력
+  Serial.print("_");  // 시리얼 모니터에 "_" 출력
+  
+  //조도
+  int lightValue = analogRead(lightPin);  // 조도 센서 값을 읽어온다
+  Serial.print("LIGHT:");  // 시리얼 모니터에 "LIGHT:" 출력
+  Serial.print(lightValue);  // 시리얼 모니터에 조도 값 출력
+  Serial.print("_");  // 시리얼 모니터에 "_" 출력
+  
+  //초음파
+  digitalWrite(trig_pin,LOW);  // Trig 핀을 LOW로 설정
+  delayMicroseconds(2);  // 2 마이크로초 대기
+  digitalWrite(trig_pin,HIGH);  // Trig 핀을 HIGH로 설정
+  delayMicroseconds(10);  // 10 마이크로초 대기
+  digitalWrite(trig_pin,LOW);  // Trig 핀을 다시 LOW로 설정
+
+  long duration = pulseIn(echo_pin,HIGH);  // Echo 핀에서 HIGH 신호의 지속 시간 측정
+  long distance = (duration/2)/29.1;  // 지속 시간을 거리로 변환 (cm 단위)
+
+  Serial.print("DIS:");  // 시리얼 모니터에 "DIS:" 출력
+  Serial.println(distance);  // 시리얼 모니터에 거리 값 출력
+
+
+  delay(500);  // 500 밀리초 대기
+
+
+}

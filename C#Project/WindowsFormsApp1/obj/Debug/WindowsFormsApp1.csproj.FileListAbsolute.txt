@@ -1,0 +1,33 @@
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Downloads\새 폴더 (2)\07EMBEDDED\04 웹임베디드\C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+<<<<<<< HEAD
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Desktop\새 폴더 (4)\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+=======
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Downloads\새 폴더\LEC\09_EMBEDDED\WEB_C#_ARDUINO\01 C# PROJECT\01 C#WINFORM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+>>>>>>> eefdff111980fea3747e0cdb153216b72b2ed49d
